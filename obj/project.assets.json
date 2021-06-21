@@ -6728,11 +6728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\RSystem\\New-Prjct\\07.using-adaptive-cards\\AdaptiveCardsBot.csproj",
+      "projectUniqueName": "E:\\RSystem\\New-Prjct\\AdaptiveCardsBot\\AdaptiveCardsBot.csproj",
       "projectName": "AdaptiveCardsBot",
-      "projectPath": "E:\\RSystem\\New-Prjct\\07.using-adaptive-cards\\AdaptiveCardsBot.csproj",
+      "projectPath": "E:\\RSystem\\New-Prjct\\AdaptiveCardsBot\\AdaptiveCardsBot.csproj",
       "packagesPath": "C:\\Users\\Ajay\\.nuget\\packages\\",
-      "outputPath": "E:\\RSystem\\New-Prjct\\07.using-adaptive-cards\\obj\\",
+      "outputPath": "E:\\RSystem\\New-Prjct\\AdaptiveCardsBot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ajay\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -97,6 +97,17 @@ namespace AdaptiveCardsBot.Bots.Helper.BotAPI
             return jsonData;
 
         }
+        public static RequestBody CreateBody()
+        {
+            var requestBody = new RequestBody
+            {
+                UserID = Guid.NewGuid().ToString(),//1234, 123 etc            
+                SessionID = "someUniqueId",
+                //Body.Text = text;
+                Data = null
+            };
+            return requestBody;
+        }
     }
 
 }

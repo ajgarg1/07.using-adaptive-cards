@@ -1,0 +1,103 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "Input.Text",
+      "id": "name",
+      "label": "Please enter your name:",
+      "isRequired": true,
+      "errorMessage": "Name is required"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Cancel",
+      "associatedInputs": "none"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    },
+
+    //types which we will call on buttons start
+    {
+      "type": "openUrl",
+      "title": "Tabs in Teams",
+      "value": "https://msdn.microsoft.com/microsoft-teams/tabs"
+    },
+    {
+      "type": "messageBack",
+      "title": "My MessageBack button",
+      "displayText": "I clicked this button",
+      "text": "User just clicked the MessageBack button",
+      "value": "{\"property\": \"propertyValue\" }"
+    },
+    {
+      "type": "imBack",
+      "title": "More",
+      "value": "Show me more"
+    },
+    {
+      "type": "invoke",
+      "title": "Option 1",
+      "value": {
+        "option": "opt1"
+      }
+    },
+    //types which we will call on buttons End
+    {
+      "type": "Action.Submit",
+      "title": "Click me for messageBack",
+      "data": {
+        "msteams": {
+          "type": "messageBack", //here i have called type
+          "displayText": "I clicked this button",
+          "text": "text to bots",
+          "value": "{\"bfKey\": \"bfVal\", \"conflictKey\": \"from value\"}"
+        }
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Click me for imBack",
+      "data": {
+        "msteams": {
+          "type": "imBack",
+          "value": "Text to reply in chat"
+        }
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Click me for signin",
+      "data": {
+        "msteams": {
+          "type": "signin",
+          "value": "https://signin.com"
+        }
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "submit",
+      "data": {
+        "msteams": {
+          "type": "task/fetch"
+        }
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "submit",
+      "data": {
+        "msteams": {
+          "type": "task/fetch"
+        },
+        "Value1": "some value"
+      }
+    }
+  ]
+}

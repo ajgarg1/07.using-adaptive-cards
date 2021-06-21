@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/EG4lqJLlJqwbUW7i6bFZPcJOxKzMH/oSVQy5ITAQ4PVCMF2Y37CYXGx9nuyIUqZXo/e/ZAQx7aP/H4v7tUbFQ==",
+  "dgSpecHash": "GGHIlNj+aK8Q7POahudu2xhM+4CsTElVX5QClAFSFLgX+1L5BD5pE7gU8kiWlILKkKR9tP+FqjcGWaKvH8IfLw==",
   "success": true,
-  "projectFilePath": "E:\\RSystem\\New-Prjct\\07.using-adaptive-cards\\AdaptiveCardsBot.csproj",
+  "projectFilePath": "E:\\RSystem\\New-Prjct\\AdaptiveCardsBot\\AdaptiveCardsBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ajay\\.nuget\\packages\\adaptivecards\\1.0.3\\adaptivecards.1.0.3.nupkg.sha512",
     "C:\\Users\\Ajay\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.1\\microsoft.aspnetcore.jsonpatch.3.1.1.nupkg.sha512",

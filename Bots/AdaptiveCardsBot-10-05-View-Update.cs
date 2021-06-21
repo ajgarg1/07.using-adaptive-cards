@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using AdaptiveCards;
 using AdaptiveCardsBot.Bots.Helper;
+using AdaptiveCardsBot.Bots.Helper.AdaptiveCards;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Teams;
 using Microsoft.Bot.Connector.Authentication;

@@ -1,27 +1,25 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace AdaptiveCardsBot.Bots.Helper
 {
-    //public class RequestBody
-    //{
-    //}
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
-
     public class RequestBody
     {
         [JsonProperty(PropertyName = "userId")]
         public string UserID { get; set; }
-        public string sessionId { get; set; }
-        public string text { get; set; }
-        public Data data { get; set; }
+
+        [JsonProperty(PropertyName = "sessionId")]
+        public string SessionID { get; set; }
+
+        [JsonProperty(PropertyName = "text")]
+        public string Text { get; set; }
+
+        [JsonProperty(PropertyName = "data")]
+        public Data Data { get; set; }
     }
     public class Data
     {
-        public string key { get; set; }
+        [JsonProperty(PropertyName = "key")]
+        public string Key { get; set; }
     }
 
 
